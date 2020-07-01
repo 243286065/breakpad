@@ -32,6 +32,8 @@
 # you can still use the hooks mechanism for generating project files by calling
 # 'gclient runhooks' rather than 'gclient sync'.
 
+use_relative_paths = True
+
 deps = {
   # Testing libraries and utilities.
   "src/src/testing":
